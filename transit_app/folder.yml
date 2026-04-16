@@ -1,0 +1,11 @@
+info:
+  name: transit_app
+  type: folder
+  seq: 2
+
+request:
+  auth:
+    type: apikey
+    key: apiKey
+    value: transit_publicapi_v3_925a82bfb345a06cbb109529a1f456489aac078b81489984d5ad04d8dadac9df
+    placement: header

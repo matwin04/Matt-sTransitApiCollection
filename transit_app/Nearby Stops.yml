@@ -1,0 +1,22 @@
+info:
+  name: Nearby Stops
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://external.transitapp.com/v3/public/nearby_stops?lat=34.0502481&lon=-117.8165265
+  params:
+    - name: lat
+      value: "34.0502481"
+      type: query
+    - name: lon
+      value: "-117.8165265"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
