@@ -1,0 +1,15 @@
+info:
+  name: Untitled
+  type: websocket
+  seq: 1
+
+websocket:
+  url: wss://api.metro.net/ws/LACMTA_Rail/vehicle_positions
+  message:
+    type: json
+    data: "{}"
+  auth: inherit
+
+settings:
+  timeout: 0
+  keepAliveInterval: 0
